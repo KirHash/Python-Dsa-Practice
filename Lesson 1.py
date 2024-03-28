@@ -1,4 +1,4 @@
-#Taking Input and Output
+#Taking Output in Python
 
 print("Hello")
 
