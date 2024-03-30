@@ -113,6 +113,72 @@
 #         print(j, end="")
 #     print()
 
+# Pattern 13
+# n = 5
+# k = 1
+# for i in range(n):
+#     for j in range(i+1):
+#         print(k, end=" ")
+#         k += 1
+#     print()
+        
+# Pattern 14
+# def numToChr(num):
+#     return chr(num+65)
+
+# n = 5
+# for i in range(n):
+#     for j in range(i+1):
+#         print(numToChr(j), end="")
+#     print()
+
+# Pattern 15
+# def numToChr(num):
+#     return chr(num+65)
+
+# n = 5
+# for i in range(n):
+#     for j in range(n-i):
+#         print(numToChr(j), end="")
+#     print()
+
+# Pattern 16
+# def numToChr(num):
+#     return chr(num+65)
+
+# n = 5
+# for i in range(n):
+#     for j in range(i+1):
+#         print(numToChr(i), end="")
+#     print()
+
+# Pattern 17
+# def numToChr(num):
+#     return chr(num+65)
+
+# n = 5
+# for i in range(n):
+#     for j in range(n-i-1):
+#         print(" ", end="")
+#     for j in range(i):
+#         print(numToChr(j), end="")
+#     for j in range(i,-1,-1):
+#         print(numToChr(j), end="")
+#     print()
+
+# Pattern 18
+# def numToChr(num):
+#     return chr(num+65)
+
+# n = 5
+# k = n-1
+# for i in range(n):
+#     for j in range(i+1):
+#         print(numToChr(k+j), end="")
+#     k -=1
+#     print()
+
+
 
 
         
