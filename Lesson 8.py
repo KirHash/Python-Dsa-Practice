@@ -57,6 +57,55 @@
 # res = gcd(a,b)
 # print(res)
 
+#Armstrong
+# def countDigits(num):
+#     count = 0
+#     while num > 0:
+#         num = num//10
+#         count += 1
+#     return count
+# def armstrong(num):
+#     ans = 0
+#     k = countDigits(num)
+#     while num > 0:
+#         rem = num%10
+#         ans = ans + (rem**k)
+#         num = num//10
+#     return num == ans
+
+# num = int(input())
+# res = armstrong(num)
+# print(res)
+
+#Print All Divisor
+# def allDivisors(num):
+#     k = 1
+#     while k*k <= 0:
+#         if num%k == 0:
+#             print(k)
+#             if k !=(num//k):
+#                 print(num//k)
+#         k += 1
+
+# num = int(input())
+# res = allDivisors(num)
+# print(res)
+
+#Check for Prime
+# def prime(num):
+#     if num < 2:
+#         return False
+#     i = 2
+#     while i*i <= num:
+#         if num%i == 0:
+#             return False
+#         i += 1
+#     return True
+
+# num = int(input())
+# res = prime(num)
+# print(res)
+
 
 
 
